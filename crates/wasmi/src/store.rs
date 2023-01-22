@@ -69,7 +69,7 @@ impl StoreIdx {
 pub type Stored<Idx> = GuardedEntity<StoreIdx, Idx>;
 
 /// The store that owns all data associated to Wasm modules.
-#[derive(Debug)]
+#[derive(Debug, Clone)]
 pub struct Store<T> {
     /// All data that is not associated to `T`.
     ///
@@ -85,7 +85,7 @@ pub struct Store<T> {
 }
 
 /// The inner store that owns all data not associated to the host state.
-#[derive(Debug)]
+#[derive(Debug, Clone)]
 pub struct StoreInner {
     /// The unique store index.
     ///

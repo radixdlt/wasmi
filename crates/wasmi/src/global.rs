@@ -138,7 +138,7 @@ impl GlobalType {
 }
 
 /// A global variable entity.
-#[derive(Debug)]
+#[derive(Debug, Clone)]
 pub struct GlobalEntity {
     /// The current value of the global variable.
     value: UntypedValue,
