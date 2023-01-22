@@ -7,6 +7,7 @@ use core::{
 };
 
 /// Stores components for entities backed by a [`Vec`].
+#[derive(Clone)]
 pub struct ComponentVec<Idx, T> {
     components: Vec<Option<T>>,
     marker: PhantomData<fn() -> Idx>,

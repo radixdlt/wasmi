@@ -144,7 +144,7 @@ impl MemoryType {
 }
 
 /// A linear memory entity.
-#[derive(Debug)]
+#[derive(Debug, Clone)]
 pub struct MemoryEntity {
     bytes: ByteBuffer,
     memory_type: MemoryType,

@@ -49,7 +49,7 @@ pub trait ArenaIndex: Copy {
 /// An arena allocator with a given index and entity type.
 ///
 /// For performance reasons the arena cannot deallocate single entities.
-#[derive(Debug)]
+#[derive(Debug, Clone)]
 pub struct Arena<Idx, T> {
     entities: Vec<T>,
     marker: PhantomData<Idx>,

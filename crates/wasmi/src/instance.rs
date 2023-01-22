@@ -46,7 +46,7 @@ impl ArenaIndex for InstanceIdx {
 }
 
 /// A module instance entity.
-#[derive(Debug)]
+#[derive(Debug, Clone)]
 pub struct InstanceEntity {
     initialized: bool,
     func_types: Arc<[DedupFuncType]>,
