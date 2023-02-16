@@ -53,7 +53,7 @@ impl DataSegment {
 /// With the `bulk-memory` Wasm proposal it is possible to interact
 /// with data segments at runtime. Therefore Wasm instances now have
 /// a need to have an instantiated representation of data segments.
-#[derive(Debug)]
+#[derive(Debug, Clone)]
 pub struct DataSegmentEntity {
     /// The underlying bytes of the instance data segment.
     ///

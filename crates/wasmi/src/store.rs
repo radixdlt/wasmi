@@ -868,7 +868,7 @@ impl<'a, T> StoreContext<'a, T> {
 
     /// Access the underlying data owned by this store.
     ///
-    /// Same as [`Store::data`].    
+    /// Same as [`Store::data`].
     pub fn data(&self) -> &T {
         self.store.data()
     }
@@ -913,14 +913,14 @@ impl<'a, T> StoreContextMut<'a, T> {
 
     /// Access the underlying data owned by this store.
     ///
-    /// Same as [`Store::data`].    
+    /// Same as [`Store::data`].
     pub fn data(&self) -> &T {
         self.store.data()
     }
 
     /// Access the underlying data owned by this store.
     ///
-    /// Same as [`Store::data_mut`].    
+    /// Same as [`Store::data_mut`].
     pub fn data_mut(&mut self) -> &mut T {
         self.store.data_mut()
     }

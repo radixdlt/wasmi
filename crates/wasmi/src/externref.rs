@@ -25,7 +25,7 @@ impl ArenaIndex for ExternObjectIdx {
 }
 
 /// An externally defined object.
-#[derive(Debug)]
+#[derive(Debug, Clone)]
 pub struct ExternObjectEntity {
     inner: Box<dyn 'static + Any + Send + Sync>,
 }

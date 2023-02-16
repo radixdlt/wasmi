@@ -80,7 +80,7 @@ impl ElementSegment {
 /// With the `bulk-memory` Wasm proposal it is possible to interact
 /// with element segments at runtime. Therefore Wasm instances now have
 /// a need to have an instantiated representation of data segments.
-#[derive(Debug)]
+#[derive(Debug, Clone)]
 pub struct ElementSegmentEntity {
     /// The [`ValueType`] of elements of this [`ElementSegmentEntity`].
     ty: ValueType,

@@ -133,7 +133,7 @@ impl TableType {
 }
 
 /// A Wasm table entity.
-#[derive(Debug)]
+#[derive(Debug, Clone)]
 pub struct TableEntity {
     ty: TableType,
     elements: Vec<UntypedValue>,
