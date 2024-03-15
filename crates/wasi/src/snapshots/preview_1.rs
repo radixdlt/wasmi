@@ -1,3 +1,5 @@
+extern crate radix_wasmi as wasmi;
+
 use crate::WasmiGuestMemory;
 use std::{
     pin::Pin,

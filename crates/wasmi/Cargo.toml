@@ -1,6 +1,6 @@
 [package]
-name = "wasmi"
-version = "0.23.0"
+name = "radix-wasmi"
+version = "1.0.0"
 documentation = "https://docs.rs/wasmi/"
 description = "WebAssembly interpreter"
 exclude = ["tests/*", "benches/*"]
@@ -35,4 +35,5 @@ std = ["wasmi_core/std", "wasmi_arena/std", "wasmparser/std", "spin/std"]
 
 [[bench]]
 name = "benches"
+path = "benches/benches.rs"
 harness = false

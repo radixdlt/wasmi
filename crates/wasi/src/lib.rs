@@ -1,3 +1,5 @@
+extern crate radix_wasmi as wasmi;
+
 mod guest_memory;
 pub mod snapshots;
 

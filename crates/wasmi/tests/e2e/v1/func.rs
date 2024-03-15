@@ -1,4 +1,5 @@
 //! Tests for the `Func` type in `wasmi`.
+extern crate radix_wasmi as wasmi;
 
 use assert_matches::assert_matches;
 use wasmi::{errors::FuncError, Engine, Error, Func, Store};

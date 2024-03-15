@@ -1,3 +1,5 @@
+extern crate radix_wasmi as wasmi;
+
 use super::{error::TestError, TestContext, TestDescriptor};
 use anyhow::Result;
 use wasmi::{Config, Error as WasmiError};

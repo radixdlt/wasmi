@@ -1,3 +1,5 @@
+extern crate radix_wasmi as wasmi;
+
 use anyhow::{anyhow, bail, Result};
 use clap::Parser;
 use core::fmt::Write;
