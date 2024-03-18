@@ -1,3 +1,5 @@
+extern crate radix_wasmi as wasmi;
+
 use std::{error::Error, fmt, fmt::Display};
 use wasmi::Error as WasmiError;
 

@@ -7,6 +7,7 @@ resolver = "2"
 authors = [
     "Parity Technologies <admin@parity.io>",
     "Robin Freyler <robin.freyler@gmail.com>",
+    "Łukasz Rubaszewski <lukasz.rubaszewski@rdx.works>"
 ]
 repository = "https://github.com/paritytech/wasmi"
 edition = "2021"

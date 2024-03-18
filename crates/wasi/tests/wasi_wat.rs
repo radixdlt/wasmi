@@ -1,3 +1,5 @@
+extern crate radix_wasmi as wasmi;
+
 use wasi_cap_std_sync::WasiCtxBuilder;
 use wasmi::{Config, Extern, Instance, Store};
 use wasmi_wasi::{define_wasi, WasiCtx};

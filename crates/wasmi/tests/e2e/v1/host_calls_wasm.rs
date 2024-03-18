@@ -1,5 +1,6 @@
 //! Test to assert that host functions that call back into
 //! Wasm works correctly.
+extern crate radix_wasmi as wasmi;
 
 use wasmi::{Caller, Engine, Extern, Func, Linker, Module, Store};
 

@@ -1,3 +1,5 @@
+extern crate radix_wasmi as wasmi;
+
 mod bench;
 
 use self::bench::{

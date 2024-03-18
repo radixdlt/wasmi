@@ -1,4 +1,5 @@
 //! Test to assert that resumable call feature works as intended.
+extern crate radix_wasmi as wasmi;
 
 use wasmi::{
     Engine,

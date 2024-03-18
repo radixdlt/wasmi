@@ -1,3 +1,9 @@
+# `radix-wasmi`
+
+`radix-wasmi` is a fork of the [wasmi-labs/wasmi](https://github.com/wasmi-labs/wasmi), with the following changes:
+- Added `Clone` derive for `Store`.
+
+---
 
 | Continuous Integration |     Test Coverage    |  Documentation   |      Crates.io       |
 |:----------------------:|:--------------------:|:----------------:|:--------------------:|
