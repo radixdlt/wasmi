@@ -1,4 +1,5 @@
 //! Datastructure to efficiently store function bodies and their instructions.
+extern crate radix_wasmi_arena as wasmi_arena;
 
 use super::Instruction;
 use alloc::vec::Vec;

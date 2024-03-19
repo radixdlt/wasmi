@@ -1,4 +1,5 @@
 #![allow(clippy::len_without_is_empty)]
+extern crate radix_wasmi_arena as wasmi_arena;
 
 use super::{AsContext, AsContextMut, Func, Stored};
 use alloc::vec::Vec;

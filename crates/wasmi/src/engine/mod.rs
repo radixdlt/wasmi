@@ -1,4 +1,5 @@
 //! The `wasmi` interpreter.
+extern crate radix_wasmi_arena as wasmi_arena;
 
 pub mod bytecode;
 mod cache;

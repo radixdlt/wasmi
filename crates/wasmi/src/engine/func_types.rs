@@ -1,3 +1,5 @@
+extern crate radix_wasmi_arena as wasmi_arena;
+
 use super::{EngineIdx, Guarded};
 use crate::FuncType;
 use wasmi_arena::{ArenaIndex, DedupArena, GuardedEntity};

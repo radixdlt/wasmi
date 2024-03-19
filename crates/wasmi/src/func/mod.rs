@@ -1,3 +1,5 @@
+extern crate radix_wasmi_arena as wasmi_arena;
+
 mod caller;
 mod error;
 mod into_func;

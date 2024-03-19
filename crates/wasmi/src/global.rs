@@ -1,3 +1,5 @@
+extern crate radix_wasmi_arena as wasmi_arena;
+
 use super::{AsContext, AsContextMut, Stored};
 use crate::core::{Value, ValueType};
 use core::{fmt, fmt::Display, ptr::NonNull};
