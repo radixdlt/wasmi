@@ -1,3 +1,5 @@
+extern crate radix_wasmi_arena as wasmi_arena;
+
 mod byte_buffer;
 
 use self::byte_buffer::ByteBuffer;
