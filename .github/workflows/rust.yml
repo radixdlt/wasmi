@@ -203,7 +203,7 @@ jobs:
         with:
           token: ${{secrets.CODECOV_TOKEN}}
       - name: Archive code coverage results
-        uses: actions/upload-artifact@v3
+        uses: RDXWorks-actions/upload-artifact@main
         with:
           name: code-coverage-report
           path: cobertura.xml
